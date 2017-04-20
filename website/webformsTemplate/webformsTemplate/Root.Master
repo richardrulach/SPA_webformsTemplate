@@ -3,6 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title><asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder></title>
+    <link rel="Stylesheet" type="text/css" href="_css/main.css?a=h" />
+    <script type="text/javascript" src="_js/jquery.js"></script>
+    <script type="text/javascript" src="_js/raphael.js"></script>
+    <script type="text/javascript" src="_js/knockout.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
