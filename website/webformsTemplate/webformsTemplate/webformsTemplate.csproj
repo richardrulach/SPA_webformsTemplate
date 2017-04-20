@@ -59,6 +59,10 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="_css\main.css" />
+    <Content Include="_js\jquery.js" />
+    <Content Include="_js\knockout.js" />
+    <Content Include="_js\raphael.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -82,9 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="classes\" />
-    <Folder Include="_css\" />
     <Folder Include="_img\" />
-    <Folder Include="_js\" />
     <Folder Include="_srv\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
